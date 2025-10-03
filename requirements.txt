@@ -1,0 +1,8 @@
+numpy<2
+pandas
+scipy
+statsmodels
+pingouin
+matplotlib
+scikit-posthocs
+jupyter
