@@ -2,6 +2,12 @@
 
 This repository contains Python scripts and Jupyter notebooks for analyzing Theory of Mind (ToM) capabilities in Large Language Models (LLMs).
 
+## About
+
+This is a Python replication of the work published in *Nature Human Behaviour*:
+
+**Strachan, J.W.A., Albergo, D., Borghini, G. et al.** (2024). Testing theory of mind in large language models and humans. *Nature Human Behaviour*, 8, 1285–1295. [https://doi.org/10.1038/s41562-024-01882-z](https://www.nature.com/articles/s41562-024-01882-z)
+
 ## Objective
 
 This project aims to evaluate and compare the Theory of Mind capabilities of different language models (GPT-3.5, GPT-4, LLaMA2-70B) with human performance across multiple tasks:
