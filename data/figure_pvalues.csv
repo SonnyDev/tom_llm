@@ -1,0 +1,33 @@
+figure,test,task,model,contrast,p_value,p_adj,significance
+1a,Mann-Whitney U,Faux Pas,GPT-4,model_vs_human,6.781198858650459e-06,5.424959086920367e-05,***
+1a,Mann-Whitney U,Faux Pas,GPT-3.5,model_vs_human,4.9596688611660306e-09,5.951602633399237e-08,***
+1a,Mann-Whitney U,Faux Pas,LLaMA2-70B,model_vs_human,0.0003365710537810527,0.0020194263226863164,**
+1a,Mann-Whitney U,Hinting,GPT-4,model_vs_human,0.010621253516226212,0.04124632032483639,*
+1a,Mann-Whitney U,Hinting,GPT-3.5,model_vs_human,0.625716346027603,0.625716346027603,
+1a,Mann-Whitney U,Hinting,LLaMA2-70B,model_vs_human,7.279663576972346e-06,5.424959086920367e-05,***
+1a,Mann-Whitney U,Irony,GPT-4,model_vs_human,0.010311580081209097,0.04124632032483639,*
+1a,Mann-Whitney U,Irony,GPT-3.5,model_vs_human,2.369746442371746e-07,2.369746442371746e-06,***
+1a,Mann-Whitney U,Irony,LLaMA2-70B,model_vs_human,2.1732804948680644e-08,2.3906085443548706e-07,***
+1a,Mann-Whitney U,Strange Stories,GPT-4,model_vs_human,1.1595990092305666e-06,1.04363910830751e-05,***
+1a,Mann-Whitney U,Strange Stories,GPT-3.5,model_vs_human,0.05522539819050473,0.11045079638100946,
+1a,Mann-Whitney U,Strange Stories,LLaMA2-70B,model_vs_human,0.001005607274597637,0.005028036372988185,**
+1b,Mann-Whitney U,Faux Pas,Human,original_vs_new,0.003165649964136771,0.028490849677230937,*
+1b,Mann-Whitney U,Faux Pas,GPT-4,original_vs_new,0.07696132230550197,0.46176793383301185,
+1b,Mann-Whitney U,Faux Pas,GPT-3.5,original_vs_new,0.00018962770443199856,0.0020859047487519844,**
+1b,Mann-Whitney U,Faux Pas,LLaMA2-70B,original_vs_new,1.0,1.0,
+1b,Mann-Whitney U,Hinting,Human,original_vs_new,0.0008154330169276915,0.008154330169276915,**
+1b,Mann-Whitney U,Hinting,GPT-4,original_vs_new,0.01756057200761525,0.12292400405330674,
+1b,Mann-Whitney U,Hinting,GPT-3.5,original_vs_new,0.19108481228356133,0.9554240614178067,
+1b,Mann-Whitney U,Hinting,LLaMA2-70B,original_vs_new,7.646641459807688e-05,0.0009175969751769226,***
+1b,Mann-Whitney U,Strange Stories,Human,original_vs_new,0.6263728228762977,1.0,
+1b,Mann-Whitney U,Strange Stories,GPT-4,original_vs_new,0.35064788970445904,1.0,
+1b,Mann-Whitney U,Strange Stories,GPT-3.5,original_vs_new,0.010693936953089928,0.08555149562471942,
+1b,Mann-Whitney U,Strange Stories,LLaMA2-70B,original_vs_new,0.19388717926071675,0.9554240614178067,
+2b,Chi-square,Faux Pas variants,Human,Faux Pas vs Neutral,6.369808105850903e-13,3.8218848635105415e-12,***
+2b,Chi-square,Faux Pas variants,Human,Knowledge-Implied vs Neutral,8.251464086592385e-32,6.601171269273908e-31,***
+2b,Chi-square,Faux Pas variants,GPT-4,Faux Pas vs Neutral,2.1970039665607163e-24,1.5379027765925014e-23,***
+2b,Chi-square,Faux Pas variants,GPT-4,Knowledge-Implied vs Neutral,0.00011885337247021375,0.00035656011741064123,***
+2b,Chi-square,Faux Pas variants,GPT-3.5,Faux Pas vs Neutral,0.003671924961036356,0.007343849922072712,**
+2b,Chi-square,Faux Pas variants,GPT-3.5,Knowledge-Implied vs Neutral,3.6300695122412067e-06,1.8150347561206033e-05,***
+2b,Chi-square,Faux Pas variants,LLaMA2-70B,Faux Pas vs Neutral,7.0203171360878075e-06,2.808126854435123e-05,***
+2b,Chi-square,Faux Pas variants,LLaMA2-70B,Knowledge-Implied vs Neutral,0.17960501662730277,0.17960501662730277,
